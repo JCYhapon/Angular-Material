@@ -25,6 +25,7 @@ const appRoute: Routes = [
   { path: 'card', component: CardComponent },
   { path: 'table', component: TableComponent },
   { path: 'form', component: FormComponent },
+  { path: 'schedule', component: ScheduleComponent },
 ];
 
 @NgModule({
