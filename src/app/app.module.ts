@@ -19,6 +19,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { CardComponent } from './card/card.component';
 import { TableComponent } from './table/table.component';
 import { FormComponent } from './form/form.component';
+import { ScheduleComponent } from './schedule/schedule.component';
 
 const appRoute: Routes = [
   { path: 'card', component: CardComponent },
@@ -33,6 +34,7 @@ const appRoute: Routes = [
     CardComponent,
     TableComponent,
     FormComponent,
+    ScheduleComponent,
   ],
   imports: [
     BrowserAnimationsModule,
