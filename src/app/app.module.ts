@@ -15,11 +15,21 @@ import { MatListModule } from '@angular/material/list';
 
 import { MatButtonModule } from '@angular/material/button';
 import { NavbarComponent } from './navbar/navbar.component';
+import { CardComponent } from './card/card.component';
+import { TableComponent } from './table/table.component';
 
-const appRoute: Routes = [];
+const appRoute: Routes = [
+  { path: 'card', component: CardComponent },
+  { path: 'table', component: TableComponent },
+];
 
 @NgModule({
-  declarations: [TabGroupBasicExample, NavbarComponent],
+  declarations: [
+    TabGroupBasicExample,
+    NavbarComponent,
+    CardComponent,
+    TableComponent,
+  ],
   imports: [
     BrowserAnimationsModule,
     BrowserModule,
