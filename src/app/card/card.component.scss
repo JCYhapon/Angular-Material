@@ -2,10 +2,17 @@
   max-width: 400px;
   border: 2px solid green;
   border-radius: 25px;
+  margin-top: 3rem;
 }
 
 .example-header-image {
   background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
   background-size: cover;
   border: 2px solid green;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
