@@ -23,7 +23,7 @@ import { FormComponent } from './form/form.component';
 const appRoute: Routes = [
   { path: 'card', component: CardComponent },
   { path: 'table', component: TableComponent },
-  { path: 'form', component: TableComponent },
+  { path: 'form', component: FormComponent },
 ];
 
 @NgModule({
