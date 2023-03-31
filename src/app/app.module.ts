@@ -12,15 +12,18 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 import { MatButtonModule } from '@angular/material/button';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CardComponent } from './card/card.component';
 import { TableComponent } from './table/table.component';
+import { FormComponent } from './form/form.component';
 
 const appRoute: Routes = [
   { path: 'card', component: CardComponent },
   { path: 'table', component: TableComponent },
+  { path: 'form', component: TableComponent },
 ];
 
 @NgModule({
@@ -29,6 +32,7 @@ const appRoute: Routes = [
     NavbarComponent,
     CardComponent,
     TableComponent,
+    FormComponent,
   ],
   imports: [
     BrowserAnimationsModule,
@@ -43,6 +47,7 @@ const appRoute: Routes = [
     MatToolbarModule,
     MatIconModule,
     MatListModule,
+    MatGridListModule,
     RouterModule.forRoot(appRoute),
   ],
   bootstrap: [TabGroupBasicExample],
